@@ -1,4 +1,4 @@
-# Prolog Programs
+# Prolog Programs (26–40)
 
 ## 1. Sum of Integers from 1 to N
 
@@ -6,69 +6,193 @@
 ```text
 START
 Read N
-Set Sum = 0
+Sum = 0
 For I = 1 to N
     Sum = Sum + I
 Display Sum
 STOP
 ```
 
-## 2. Student Information
+## 2. Database with Name and DOB
 
 ### Pseudocode
 ```text
 START
-Store student details
+Store Name and DOB records
+Read person's name
+Search database
+Display DOB
+STOP
+```
+
+## 3. Student-Teacher-Subject Code Database
+
+### Pseudocode
+```text
+START
+Store Student, Teacher and Subject Code details
 Read student name
-Read student age
-Display student details
+Search database
+Display teacher and subject code
 STOP
 ```
 
-## 3. Planet Information
+## 4. Planets Database
 
 ### Pseudocode
 ```text
 START
-Store planet details
+Store planet information
 Read planet name
-Search for planet
-Display planet information
+Search database
+Display planet details
 STOP
 ```
 
-## 4. Person Information
+## 5. Towers of Hanoi
 
 ### Pseudocode
 ```text
 START
-Store person details
-Read person name
-Search for person
-Display person information
+Read number of disks N
+Move N-1 disks from Source to Auxiliary
+Move largest disk to Destination
+Move N-1 disks from Auxiliary to Destination
+Display moves
 STOP
 ```
 
-## 5. Movie Information
+## 6. Bird Can Fly or Not
 
 ### Pseudocode
 ```text
 START
-Store movie details
-Read movie name
-Search for movie
-Display movie information
+Store bird information
+Read bird name
+Check flying ability
+Display Can Fly or Cannot Fly
 STOP
 ```
 
-## 6. Shopping System
+## 7. Family Tree
 
 ### Pseudocode
 ```text
 START
-Store product details
-Read product name
-Search for product
-Display product information
+Store family members
+Define mother relation
+Define father relation
+Define grandfather relation
+Define grandmother relation
+Define sister relation
+Define brother relation
+Answer queries
+STOP
+```
+
+## 8. Dieting System Based on Disease
+
+### Pseudocode
+```text
+START
+Store diseases and diet plans
+Read disease name
+Search diet plan
+Display recommendation
+STOP
+```
+
+## 9. Monkey Banana Problem
+
+### Pseudocode
+```text
+START
+Monkey wants banana
+Move monkey to box
+Push box below banana
+Climb box
+Take banana
+STOP
+```
+
+## 10. Fruit and Color using Backtracking
+
+### Pseudocode
+```text
+START
+Store fruits and colors
+Read fruit name
+Search fruit
+Display color
+Use backtracking for alternatives
+STOP
+```
+
+## 11. Best First Search Algorithm
+
+### Pseudocode
+```text
+START
+Initialize open list
+Select best node
+Expand node
+Add successors
+Repeat until goal found
+Display solution path
+STOP
+```
+
+## 12. Medical Diagnosis
+
+### Pseudocode
+```text
+START
+Read symptoms
+Match symptoms with diseases
+Find possible disease
+Display diagnosis
+STOP
+```
+
+## 13. Forward Chaining
+
+### Pseudocode
+```text
+START
+Store facts and rules
+Apply rules on facts
+Generate new facts
+Repeat until goal reached
+Display conclusion
+STOP
+```
+
+## 14. Backward Chaining
+
+### Pseudocode
+```text
+START
+Set goal
+Check rules supporting goal
+Verify required facts
+If facts true
+    Goal is true
+Else
+    Goal is false
+Display result
+STOP
+```
+
+## 15. Web Blog using WordPress
+
+### Pseudocode
+```text
+START
+Login to WordPress
+Create new blog page
+Add title tag
+Add anchor tag
+Add content
+Publish page
 STOP
 ```
