@@ -196,3 +196,30 @@ Add content
 Publish page
 STOP
 ```
+## GBFS
+
+###Pseudocode
+```text
+FUNCTION GBFS(graph, start, goal, heuristic):
+    open_list = PRIORITY_QUEUE() // Sorted by h(n)
+    PUSH (heuristic[start], start, [start]) TO open_list // h, node, path
+    visited = EMPTY_SET
+
+    WHILE open_list NOT EMPTY:
+        h, node, path = POP_LOWEST_H(open_list)
+
+        IF node IN visited: CONTINUE
+        ADD node TO visited
+        PRINT node, h
+
+        IF node == goal: RETURN path
+
+        FOR each neighbor IN graph[node]:
+            IF neighbor NOT IN visited:
+                new_h = heuristic[neighbor]
+                new_path = path + [neighbor]
+                PUSH (new_h, neighbor, new_path) TO open_list
+
+    RETURN "NO PATH"
+```
+
