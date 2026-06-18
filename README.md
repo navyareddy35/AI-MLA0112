@@ -198,7 +198,7 @@ STOP
 ```
 ## GBFS
 
-###Pseudocode
+Pseudocode
 ```text
 FUNCTION GBFS(graph, start, goal, heuristic):
     open_list = PRIORITY_QUEUE() // Sorted by h(n)
