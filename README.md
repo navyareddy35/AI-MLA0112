@@ -1,0 +1,12 @@
+# Prolog Programs
+
+## Sum of Integers from 1 to N
+
+### Pseudocode
+START
+Read N
+Set Sum = 0
+For I = 1 to N
+    Sum = Sum + I
+Display Sum
+STOP
