@@ -1,4 +1,4 @@
-# Prolog Programs (26–40)
+# Prolog Programs 
 
 ## 1. Sum of Integers from 1 to N
 
